@@ -1,5 +1,10 @@
 # New_Project
 
-**2020/11/08**<br>
-현재 메인 Dialog 구현 중<br>
-메인 이미지가 가로 세로 비율이 1대1에 매우 근사, 메인 Dialog size를 1대1로 구현하고자 한다.
+## 서버-클라이언트 통신
+
+### 1:1 메시지 전송 (2020/11/20)
+user1, user2는 server로 메시지를 전송한다.<br>
+서버는 받은 메시지를 user1과 user2에게 전송한다.<br>
+user1, user2는 메시지를 스레드를 통해 받는다.<br>
+##### 현재 user1-user2 통신만 가능
+![gameSocket](https://user-images.githubusercontent.com/53012696/99871069-06843980-2c1b-11eb-85ae-e165a8d1b189.gif)
