@@ -17,3 +17,7 @@ user1, user2는 메시지를 스레드를 통해 받는다.<br>
 user는 메시지를 스레드를 통해 받는다.<br>
 ##### 각 room 안의 유저들끼리 통신 가능
 ![socketThread](https://user-images.githubusercontent.com/53012696/99874663-1e64b900-2c2d-11eb-970f-de4483551ad9.gif)
+
+### 서버에서 유저로 역할 전달 (2020/11/27)
+##### 각 유저는 전달받은 역할을 메시지 박스로 띄움
+![sendRole](https://user-images.githubusercontent.com/53012696/100411799-1639cd00-30b6-11eb-8fe0-845a29a9f562.gif)
